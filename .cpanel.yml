@@ -3,4 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/andhika/public_html/
     - /bin/cp index.html * $DEPLOYPATH
-    -
