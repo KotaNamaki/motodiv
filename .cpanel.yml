@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/andhika/public_html/
-    - /bin/cp index.html * $DEPLOYPATH
+    - export DEPLOY_PATH=/home/motodiv/public_html/
+    - /bin/cp index.html * $DEPLOY_PATH
