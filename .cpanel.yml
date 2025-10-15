@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andhika/public_html/motodiv/
+    - /bin/cp -R * $DEPLOYPATH
