@@ -2,4 +2,4 @@
 deployment:
   task:
     - export DEPLOYPATH = /home/motodivs/public_html/
-    - /bin/cp database.js * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
