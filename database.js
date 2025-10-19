@@ -56,6 +56,4 @@ const getDBPool = async () => {
         }).connect(sshConfig);
     });
 };
-
 module.exports = { getDBPool };
-
