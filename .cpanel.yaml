@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH = /home/motodivs/app.motodiv.store/
+    - /bin/cp -R $DEPLOYPATH
