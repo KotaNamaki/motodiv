@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOY_PATH=/home/motodivs/public_html/
-    - /bin/cp index.html * $DEPLOY_PATH
+    - /bin/cp -R * $DEPLOY_PATH
